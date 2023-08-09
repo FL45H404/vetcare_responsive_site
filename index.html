@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vetcare Team</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- header seaction -->
+    <header class="header container">
+        <div class='logo'>
+            COMPANY LOGO
+        </div>
+
+        <div class='navbar'>
+            <nav class="nav">
+                <ul class="menus">
+                    <li class="menu"><a href="#">Home</a></li>
+                    <li class="menu"><a href='#'>Service</a></li>
+                    <li class="menu"><a href='#'>About</a></li>
+                    <li class="menu"><a href='#'>Contact</a></li>
+                    <li class="menu searchBox">
+                        <input class='searchBar' type='text' placeholder="Search." />
+                        <button id="searchBtn"><i class="ri-search-line"></i></button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="mobile-nav-btn">
+            <i class="ri-menu-line mobile-icon" name='open'></i>
+            <i class="ri-close-line mobile-icon" name="close"></i>
+        </div>
+    </header>
+
+    <!-- body main section -->
+    <section class="main container">
+        <div class="main-section">
+            <div class="main-info">
+                <div class="main-heading">
+                    First I wanted to be a veterinarian
+                </div>
+                <div class="main-desc">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam quidem impedit nemo qui, veritatis
+                    excepturi odio ipsum itaque, mollitia saepe, autem nulla esse quasi perferendis ut ducimus. Eos,
+                    repellendus cupiditate.
+                </div>
+                <div class="main-btns">
+                    <button class='leftbtn'>Contact Us</button>
+                    <button class='rightbtn'>Our Service</button>
+                </div>
+            </div>
+            <div class="main-image">
+                <img src="https://pyxis.nymag.com/v1/imgs/1b1/2b6/4a4c800d5af56e0cd00edc9a86e06ae345-11-puppies.rsquare.w700.jpg"
+                    alt="Dog_image" srcset="">
+            </div>
+        </div>
+    </section>
+
+    <!-- video section -->
+    <section class="videoinfo container ">
+        <div class="videoinfo-section">
+            <div class="video-info">
+                <div class="video-heading">
+                    As a veterinarian and lover of animals
+                </div>
+                <div class="video-desc">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut doloremque iusto nulla eveniet, hic
+                    ullam fugiat ea, fuga quidem minus obcaecati quo reprehenderit et!
+                </div>
+                <div class="video-btns">
+                    <button class='leftbtn'>Contact Us</button>
+                </div>
+            </div>
+            <div class="video-image">
+                <div class="video-holder">
+                    <video class="player" controls>
+                        <source src='/src/videoplayback.mp4' type='video/mp4' />
+                    </video>
+                    <div class="player-bg"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="titleinfo container">
+        <div class="title-section">
+            <div class="title">
+                <div class="title-head">Title here</div>
+                <div class="title-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quasi eius
+                    veritatis aliquid nam dolore?</div>
+            </div>
+            <div class="title-images">
+                <div class="title-image">
+                    <img src="https://5.imimg.com/data5/BX/KU/ML/SELLER-6134433/veterinary-doctor-500x500.jpg"
+                        alt="Doctor-image">
+                </div>
+                <div class="title-image">
+                    <img src="https://ivcjournal.com/wp-content/uploads/shutterstock_1939464007.jpg" alt="Doctor-image">
+                </div>
+                <div class="title-image">
+                    <img src="https://img.freepik.com/free-photo/veterinarian-checking-dog-medium-shot_23-2149143871.jpg"
+                        alt="Doctor-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- used Slick slider for dragging -->
+    <!-- vetcare team section -->
+    <section class="vetinfo container">
+        <div class="vetinfo-section">
+            <div class="vetinfo-title">
+                <div class="vetinfo-head">The vetcare team</div>
+                <div class="vetinfo-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quasi eius
+                    veritatis aliquid nam dolore?</div>
+            </div>
+            <div class="vetinfo-images">
+                <div class="slick-carousel">
+                    <div>
+                        <div class="vetinfo-image">
+                            <div class="dr-img">
+                                <img src="https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg"
+                                    alt="Doctor-image">
+                            </div>
+                            <div class="dr-info">
+                                <h3>Jennier Mullen</h3>
+                                <h5>veterinary</h5>
+                                <div class="dr-social">
+                                    <div class="dr-insta">
+                                        <i class="ri-instagram-line"></i>
+                                    </div>
+                                    <div class="dr-fb">
+                                        <i class="ri-facebook-fill"></i>
+                                    </div>
+                                    <div class="dr-twitter">
+                                        <i class="ri-twitter-fill"></i>
+                                    </div>
+                                    <div class="dr-wp">
+                                        <i class="ri-whatsapp-fill"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vetinfo-image">
+                            <div class="dr-img">
+                                <img src="https://img.freepik.com/free-photo/attractive-young-male-nutriologist-lab-coat-smiling-against-white-background_662251-2960.jpg?w=2000"
+                                    alt="Doctor-image">
+                            </div>
+                            <div class="dr-info">
+                                <h3>Andrew john</h3>
+                                <h5>veterinary DR</h5>
+                                <div class="dr-social">
+                                    <div class="dr-insta">
+                                        <i class="ri-instagram-line"></i>
+                                    </div>
+                                    <div class="dr-fb">
+                                        <i class="ri-facebook-fill"></i>
+                                    </div>
+                                    <div class="dr-twitter">
+                                        <i class="ri-twitter-fill"></i>
+                                    </div>
+                                    <div class="dr-wp">
+                                        <i class="ri-whatsapp-fill"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vetinfo-image">
+                            <div class="dr-img">
+                                <img src="https://img.freepik.com/free-photo/woman-doctor-wearing-lab-coat-with-stethoscope-isolated_1303-29791.jpg?w=2000"
+                                    alt="Doctor-image">
+                            </div>
+                            <div class="dr-info">
+                                <h3>Nikita bella</h3>
+                                <h5>Director</h5>
+                                <div class="dr-social">
+                                    <div class="dr-insta">
+                                        <i class="ri-instagram-line"></i>
+                                    </div>
+                                    <div class="dr-fb">
+                                        <i class="ri-facebook-fill"></i>
+                                    </div>
+                                    <div class="dr-twitter">
+                                        <i class="ri-twitter-fill"></i>
+                                    </div>
+                                    <div class="dr-wp">
+                                        <i class="ri-whatsapp-fill"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vetinfo-image">
+                            <div class="dr-img">
+                                <img src="https://ichef.bbci.co.uk/news/624/mcs/media/images/76055000/jpg/_76055361_482566485.jpg"
+                                    alt="Doctor-image">
+                            </div>
+
+                            <div class="dr-info">
+                                <h3>John Cena jr</h3>
+                                <h5>veterinary</h5>
+                                <div class="dr-social">
+                                    <div class="dr-insta">
+                                        <i class="ri-instagram-line"></i>
+                                    </div>
+                                    <div class="dr-fb">
+                                        <i class="ri-facebook-fill"></i>
+                                    </div>
+                                    <div class="dr-twitter">
+                                        <i class="ri-twitter-fill"></i>
+                                    </div>
+                                    <div class="dr-wp">
+                                        <i class="ri-whatsapp-fill"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vetinfo-image">
+                            <div class="dr-img">
+                                <img src="https://yesmd.com/wp-content/uploads/2020/10/How_Telemedicine_can_reduce_physician_burnout.jpg"
+                                    alt="Doctor-image">
+                            </div>
+
+                            <div class="dr-info">
+                                <h3>donald Bk</h3>
+                                <h5>veterinary</h5>
+                                <div class="dr-social">
+                                    <div class="dr-insta">
+                                        <i class="ri-instagram-line"></i>
+                                    </div>
+                                    <div class="dr-fb">
+                                        <i class="ri-facebook-fill"></i>
+                                    </div>
+                                    <div class="dr-twitter">
+                                        <i class="ri-twitter-fill"></i>
+                                    </div>
+                                    <div class="dr-wp">
+                                        <i class="ri-whatsapp-fill"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- achievement section -->
+    <section class='achivment-section container'>
+        <div class="achivment">
+            <div class="achivment-icon">
+                <div class="logo">
+                    <i class="ri-hospital-line"></i>
+                </div>
+                <div class="records">
+                    +34793
+                </div>
+                <div class="desc">
+                    happy clients
+                </div>
+            </div>
+            <div class="achivment-icon">
+                <div class="logo">
+                    <i class="ri-nurse-line"></i>
+                </div>
+                <div class="records">
+                    +45382
+                </div>
+                <div class="desc">
+                    doctors & nurse
+                </div>
+            </div>
+            <div class="achivment-icon">
+                <div class="logo">
+                    <i class="ri-shield-cross-line"></i>
+                </div>
+                <div class="records">
+                    +54762
+                </div>
+                <div class="desc">
+                    vaccinations
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- recent post section -->
+    <section class="post-section container">
+        <div class="post">
+            <div class="post-title">
+                <div class="post-head">Recent Posts</div>
+                <div class="post-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quasi eius
+                    veritatis aliquid nam dolore?</div>
+            </div>
+            <div class="post-images">
+                <div class="slick-carousel1">
+                    <div>
+                        <div class="post-image">
+                            <div class="post-img">
+                                <img src="https://img.freepik.com/free-photo/veterinarian-checking-dog-medium-shot_23-2149143871.jpg"
+                                    alt="Doctor-image">
+                            </div>
+                            <div class="post-info">
+                                <h3>As a vaterian and lover of animals</h3>
+                                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, animi.</h5>
+                                <a href='#'>Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="post-image">
+                            <div class="post-img">
+                                <img src="https://previews.123rf.com/images/lightfieldstudios/lightfieldstudios1808/lightfieldstudios180835630/106594072-cropped-shot-of-woman-holding-beagle-and-veterinarian-examining-it-by-stethoscope-isolated-on-white.jpg"
+                                    alt="Doctor-image">
+                            </div>
+                            <div class="post-info">
+                                <h3>As a vaterian and lover of animals</h3>
+                                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, animi.</h5>
+                                <a href='#'>Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="post-image">
+                            <div class="post-img">
+                                <img src="https://www.raisedrightpets.com/wp-content/uploads/2022/09/shutterstock_746010967.jpg"
+                                    alt="Doctor-image">
+                            </div>
+                            <div class="post-info">
+                                <h3>As a vaterian and lover of animals</h3>
+                                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, animi.</h5>
+                                <a href='#'>Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="post-image">
+                            <div class="post-img">
+                                <img src="https://www.hepper.com/wp-content/uploads/2022/08/vet-examines-dog_SeventyFour_Shutterstock.jpg"
+                                    alt="Doctor-image">
+                            </div>
+
+                            <div class="post-info">
+                                <h3>As a vaterian and lover of animals</h3>
+                                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, animi.</h5>
+                                <a href='#'>Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="post-image">
+                            <div class="post-img">
+                                <img src="https://dogsbestlife.com/wp-content/uploads/2023/02/choosing-the-right-vet.jpg"
+                                    alt="Doctor-image">
+                            </div>
+
+                            <div class="post-info">
+                                <h3>As a vaterian and lover of animals</h3>
+                                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, animi.</h5>
+                                <a href='#'>Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer container">
+        <div class="footerA">
+            <div class="footerMenu">
+                <div class="footermenuA">
+                    <div class="menuHeading">
+                        About
+                    </div>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Circular</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footermenuB">
+                    <div class="menuHeading">
+                        Services
+                    </div>
+                    <ul>
+                        <li><a href="#">How to Contact</a></li>
+                        <li><a href="#">Our Product</a></li>
+                        <li><a href="#">Our Store</a></li>
+                        <li><a href="#">Promotions</a></li>
+                        <li><a href="#">Payment Method</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footerB">
+            <div class="menuHeading">
+                Title Here
+            </div>
+            <div class="menuDesc">
+                Enter your Message here
+            </div>
+            <div class="menuInput">
+                <input type="text" name="msg" id="msg"><button class="menusend"><i
+                        class="ri-send-plane-fill"></i></button>
+            </div>
+            <div class="menuIcon">
+                <ul>
+                    <li><i title='instagram' class="ri-instagram-line"></i></li>
+                    <li> <i title='facebook' class="ri-facebook-fill"></i></li>
+                    <li> <i title='whatsapp' class="ri-whatsapp-fill"></i></li>
+                    <li> <i title='twitter' class="ri-twitter-fill"></i></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
+        integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- javascript file -->
+    <script src="./index.js"></script>
+</body>
+
+</html>
