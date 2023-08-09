@@ -1,10 +1,8 @@
 ﻿# vetcare_responsive_site
  
 # vet care responsive website developed using HTML5 CSS3 and JavaScript🚀🚀
-
 ***
-
-** [Live link:-](https://elaborate-crumble-241061.netlify.app/)
+**[Live link:-](https://elaborate-crumble-241061.netlify.app/)
 
 # Preview
 ![image](https://github.com/FL45H404/vetcare_responsive_site/assets/70277710/42a3be72-4191-4b4d-a33a-d70c96a28341)
